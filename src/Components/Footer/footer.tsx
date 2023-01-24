@@ -4,6 +4,7 @@ import { BsTwitter, BsFacebook, BsCode } from "react-icons/bs";
 import { FaLinkedin, FaLaptopCode } from "react-icons/fa";
 import { IoCodeSlashOutline } from "react-icons/io5";
 import bgCover from "../../images/d.jpg";
+import skyCover from "../../images/a.jpg";
 
 function Footer() {
   const myDate = new Date();
@@ -97,7 +98,12 @@ function Footer() {
           </Text>
         </Stack>
       </Stack>
-      <HStack bg="yellow.500" pt="10px" pb="10px" w="100%">
+      <HStack
+        style={{ backgroundImage: `url(${skyCover})` }}
+        pt="10px"
+        pb="10px"
+        w="100%"
+      >
         <Stack w="100%" justifyContent="center">
           <Text color="white" fontWeight="bold" textAlign="center">
             &copy;{" "}
@@ -107,7 +113,7 @@ function Footer() {
             >
               Paballo Molati
             </a>{" "}
-            {currentYear} | All Rights Reserved
+            {currentYear} | All rights reserved
           </Text>
         </Stack>
       </HStack>

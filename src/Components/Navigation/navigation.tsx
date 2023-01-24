@@ -1,5 +1,6 @@
 import { Box, Button, HStack, Stack, Text } from "@chakra-ui/react";
 import { AiFillGithub } from "react-icons/ai";
+import { BsFileEarmarkPdfFill } from "react-icons/bs";
 
 export default function Navigation() {
   return (
@@ -87,7 +88,8 @@ export default function Navigation() {
             borderRadius="8px"
             _hover={{ bg: "yellow.500", color: "white" }}
           >
-            Download CV
+            My Resume
+            <BsFileEarmarkPdfFill />
           </Button>
         </Stack>
       </HStack>
