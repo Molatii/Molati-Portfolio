@@ -1,10 +1,32 @@
-import { Box, Button, HStack, Stack, Text } from "@chakra-ui/react";
+import { Box, HStack, Stack, Text } from "@chakra-ui/react";
+import { animateScroll as scroll } from "react-scroll";
 import { AiFillGithub } from "react-icons/ai";
-import { BsFileEarmarkPdfFill } from "react-icons/bs";
+import bgCover from "../../images/d.jpg";
+import DownloadButton from "../DownloadBtn/downloadButton";
 
 export default function Navigation() {
+  // Scroll to top
+  const top = () => {
+    scroll.scrollTo(0);
+  };
+  // Scroll to about section
+  const about = () => {
+    scroll.scrollTo(510);
+  };
+  // Scroll to contact  me section
+  const contact = () => {
+    scroll.scrollTo(2140);
+  };
   return (
-    <Box bg="#475C78" w="100%" h="70px" mt="0%" ml="0%">
+    <Box
+      pos="fixed"
+      zIndex={2}
+      style={{ backgroundImage: `url(${bgCover})` }}
+      w="100%"
+      h="70px"
+      mt="0%"
+      ml="0%"
+    >
       <HStack
         alignItems="center"
         justifyContent="center"
@@ -55,6 +77,8 @@ export default function Navigation() {
             fontWeight="bold"
             color="white"
             cursor="pointer"
+            _hover={{ color: "blue.400" }}
+            onClick={top}
           >
             Home
           </Text>
@@ -64,6 +88,8 @@ export default function Navigation() {
             fontWeight="bold"
             color="white"
             cursor="pointer"
+            _hover={{ color: "blue.400" }}
+            onClick={about}
           >
             About
           </Text>
@@ -73,24 +99,14 @@ export default function Navigation() {
             fontWeight="bold"
             color="white"
             cursor="pointer"
+            _hover={{ color: "blue.400" }}
+            onClick={contact}
           >
             Contact
           </Text>
         </Stack>
         <Stack w={{ base: "45%", md: "20%" }}>
-          <Button
-            size="md"
-            mt={{ base: "5%", md: "0%" }}
-            alignSelf="flex-end"
-            w={{ base: "70%", md: "70%" }}
-            color="#475C78"
-            bg="white"
-            borderRadius="8px"
-            _hover={{ bg: "yellow.500", color: "white" }}
-          >
-            My Resume
-            <BsFileEarmarkPdfFill />
-          </Button>
+          <DownloadButton />
         </Stack>
       </HStack>
     </Box>
