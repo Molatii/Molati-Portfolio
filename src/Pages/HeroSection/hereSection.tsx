@@ -14,6 +14,8 @@ import { FaLaptopCode } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
 import molati from "../../images/onwer.jpg";
 
+const Zoom = require("react-reveal/Zoom");
+
 export default function HeroSection() {
   // Scroll to projects
   const projects = () => {
@@ -173,14 +175,16 @@ export default function HeroSection() {
           </Stack>
         </Stack>
         <Flex justifyContent="center" alignItems="center">
-          <Image
-            alt="Contact Us image"
-            w="80%"
-            borderRadius="30% 70% 70% 30% / 30% 30% 80% 70%"
-            h="100%"
-            src={molati}
-            objectFit="scale-down"
-          />
+          <Zoom>
+            <Image
+              alt="Contact Us image"
+              w="80%"
+              borderRadius="30% 70% 70% 30% / 30% 30% 80% 70%"
+              h="100%"
+              src={molati}
+              objectFit="scale-down"
+            />
+          </Zoom>
         </Flex>
       </SimpleGrid>
     </Container>

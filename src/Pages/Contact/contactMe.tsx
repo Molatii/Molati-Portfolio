@@ -24,6 +24,8 @@ import ContactUsimg from "../../images/svg images/calling.svg";
 import ContactCard from "./contactCard";
 import bgCover from "../../images/b.jpg";
 
+const Zoom = require("react-reveal/Zoom");
+
 export default function ContactMe() {
   return (
     <Box
@@ -125,13 +127,15 @@ export default function ContactMe() {
             </Stack>
           </Stack>
           <Flex>
-            <Image
-              rounded="md"
-              color="purple.800"
-              alt="Contact Us image"
-              src={ContactUsimg}
-              objectFit="cover"
-            />
+            <Zoom>
+              <Image
+                rounded="md"
+                color="purple.800"
+                alt="Contact Us image"
+                src={ContactUsimg}
+                objectFit="cover"
+              />
+            </Zoom>
           </Flex>
         </SimpleGrid>
       </Container>

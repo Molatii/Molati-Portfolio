@@ -3,6 +3,8 @@ import { Box, Container, Stack, Image, Text } from "@chakra-ui/react";
 import DownloadButton from "../../Components/DownloadBtn/downloadButton";
 import aboutImg from "../../images/svg images/ab.svg";
 
+const Zoom = require("react-reveal/Zoom");
+
 function About() {
   return (
     <Box w="100%" bg="purple.800" alignItems="center">
@@ -13,14 +15,17 @@ function About() {
           direction={{ base: "column-reverse", md: "row" }}
         >
           <Stack w={{ base: "100%", md: "50%" }}>
-            <Image
-              rounded="md"
-              mb="2%"
-              alt="Contact Us image"
-              src={aboutImg}
-              objectFit="cover"
-            />
+            <Zoom>
+              <Image
+                rounded="md"
+                mb="2%"
+                alt="Contact Us image"
+                src={aboutImg}
+                objectFit="cover"
+              />
+            </Zoom>
           </Stack>
+
           <Stack w={{ base: "100%", md: "50%" }}>
             <Stack alignItems="left" direction="row" pb="4%" spacing="1">
               <Text
