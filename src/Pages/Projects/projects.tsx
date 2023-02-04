@@ -2,8 +2,9 @@ import { Container, Stack, Box, Text } from "@chakra-ui/react";
 import { BsCode } from "react-icons/bs";
 import { IoCodeSlashOutline } from "react-icons/io5";
 import ProjectsCard from "./projectscard";
-import imgOne from "../../images/s.png";
-import imgtwo from "../../images/ss.png";
+import imgOne from "../../images/tube.png";
+import imgtwo from "../../images/firesms.png";
+import img3 from "../../images/academy.png";
 
 function Projects() {
   return (
@@ -51,25 +52,25 @@ function Projects() {
           direction={{ base: "column", md: "row" }}
         >
           <ProjectsCard
-            title="LS~Gim Hub"
+            title="M-tube"
             picture={imgOne}
-            desc="Lesotho Gim membership"
-            webLink="#"
-            gitHubLink="#"
+            desc="Youtube clone using Rapid API"
+            webLink="https://m-tube2023.netlify.app/"
+            gitHubLink="https://github.com/Molatii/afro-tube"
           />
           <ProjectsCard
             title="FireSMS"
             picture={imgtwo}
             desc="Internship SMS sending Platform"
-            webLink="#"
-            gitHubLink="#"
+            webLink="https://aca-firesms.netlify.app/"
+            gitHubLink="https://github.com/Molatii/FireSMS_2022-Frontend-Project"
           />
           <ProjectsCard
-            title="A~Academy"
-            picture={imgOne}
+            title="Academy site"
+            picture={img3}
             desc="School Management Platfrom"
-            webLink="#"
-            gitHubLink="#"
+            webLink="https://ls-academy.netlify.app/"
+            gitHubLink="https://github.com/Molatii/school-system"
           />
         </Stack>
       </Container>

@@ -41,7 +41,7 @@ export default function Navigation() {
           direction="row"
           mt={{ base: "2%", md: "0%" }}
         >
-          <a href="https://ls.linkedin.com/in/paballo-molati-075313220">
+          <a href="https://github.com/Molatii?tab=repositories">
             <Stack direction="row" ml="-1.5">
               <Text
                 mt={{ base: "3%", md: "3%" }}
