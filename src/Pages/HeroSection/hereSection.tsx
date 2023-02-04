@@ -177,7 +177,7 @@ export default function HeroSection() {
         <Flex justifyContent="center" alignItems="center">
           <Zoom>
             <Image
-              alt="Contact Us image"
+              alt="molati_pic"
               w="80%"
               borderRadius="30% 70% 70% 30% / 30% 30% 80% 70%"
               h="100%"
