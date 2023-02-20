@@ -59,7 +59,7 @@ export default function HeroSection() {
           </Stack>
           <Text color="gray.200" fontSize="lg" pb="6%">
             I'm a creative software enginneer based in Lesotho with a 1+ year
-            experience. I'm also passionnate and dedicated to my work.
+            experience. I'm also passionate and dedicated to my work.
           </Text>
           <Stack spacing={4}>
             <HStack display={{ base: "block", md: "none" }}>

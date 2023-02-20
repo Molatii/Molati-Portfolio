@@ -55,7 +55,7 @@ function Achievements() {
             <AchievementsCard
               icon={<Icon as={FaLaptopCode} color="blue.500" w={5} h={5} />}
               title="UNESCO African India Hackathon"
-              desc="In 2022 i was one of the selected software developers to participat at UNESCO Hackathon representing my Country."
+              desc="In 2022 i was one of the selected software developers to participate at UNESCO Hackathon representing my Country."
             />
             <AchievementsCard
               icon={<Icon as={MdSchool} color="blue.500" w={5} h={5} />}
