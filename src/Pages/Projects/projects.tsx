@@ -68,7 +68,7 @@ function Projects() {
           <ProjectsCard
             title="Academy site"
             picture={img3}
-            desc="School Management Platfrom"
+            desc="School Management Platform"
             webLink="https://ls-academy.netlify.app/"
             gitHubLink="https://github.com/Molatii/school-system"
           />

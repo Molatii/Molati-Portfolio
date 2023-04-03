@@ -12,7 +12,7 @@ import {
 import { BsTwitter, BsFacebook, BsLinkedin } from "react-icons/bs";
 import { FaLaptopCode } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
-import molati from "../../images/onwer.jpg";
+import molati from "../../images/molati-2.jpg";
 
 const Zoom = require("react-reveal/Zoom");
 
@@ -174,13 +174,18 @@ export default function HeroSection() {
             </Stack>
           </Stack>
         </Stack>
-        <Flex justifyContent="center" alignItems="center">
+        <Flex
+          justifyContent="center"
+          alignItems="center"
+          mt={{ base: "0%", md: "-10%" }}
+        >
           <Zoom>
             <Image
               alt="molati_pic"
               w="80%"
-              borderRadius="30% 70% 70% 30% / 30% 30% 80% 70%"
-              h="100%"
+              // borderRadius="30% 70% 70% 30% / 30% 30% 80% 70%"
+              borderRadius="30% 50% 50% 30% / 30% 30% 50% 70%"
+              h="80%"
               src={molati}
               objectFit="scale-down"
             />
