@@ -58,7 +58,7 @@ export default function HeroSection() {
             </Text>
           </Stack>
           <Text color="gray.200" fontSize="lg" pb="6%">
-            I'm a creative software enginneer based in Lesotho with a 1+ year
+            I'm a creative software engineer based in Lesotho with over one year
             experience. I'm also passionate and dedicated to my work.
           </Text>
           <Stack spacing={4}>

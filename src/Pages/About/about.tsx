@@ -54,10 +54,12 @@ function About() {
               contributions to any project.
             </Text>
             <Text color="gray.100" pb="8%">
-              In my career i have developed Mobile Apps using Android, Ionic and
-              SQL. On the otherhand, i have been developing Web sites using
-              React Js/TypeScript, HTML and PHP. State Management Libraries i
-              have used in React include Redux Toolkit, React Query and Zustand.
+              Throughout my professional journey, I have honed my skills in
+              developing mobile applications using Android, Ionic, and SQL. In
+              addition to that, I have gained expertise in web development by
+              working with React Js/TypeScript, HTML, and PHP. To enhance the
+              state management of my React projects, I have utilized various
+              libraries such as Redux Toolkit, React Query, and Zustand.
             </Text>
             <Stack w="75%" justifyContent="flex-start" pb="4%">
               <DownloadButton />

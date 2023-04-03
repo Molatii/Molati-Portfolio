@@ -48,19 +48,19 @@ function Achievements() {
             <AchievementsCard
               icon={<Icon as={FaLaptopCode} color="blue.500" w={5} h={5} />}
               title="Intern Lead 2021"
-              desc=" During my intership at Africa Code Academy i was appointed as team lead on the project we were working on as interns."
+              desc=" During my intership at Africa Code Academy, i was appointed as team lead on the project we were working on as interns."
             />
           </Stack>
           <Stack spacing={8} direction={{ base: "column", md: "row" }}>
             <AchievementsCard
               icon={<Icon as={FaLaptopCode} color="blue.500" w={5} h={5} />}
               title="UNESCO African India Hackathon"
-              desc="In 2022 i was one of the selected software developers to participate at UNESCO Hackathon representing my Country."
+              desc="In 2022, i was one of the selected software developers to participate at UNESCO Hackathon representing my Country."
             />
             <AchievementsCard
               icon={<Icon as={MdSchool} color="blue.500" w={5} h={5} />}
               title="Deans's Award 2023"
-              desc="I was awarded with a dean's award for June-Nov semester by Botho University."
+              desc="I was awarded with a dean's award for June-Nov 2022 semester by Botho University."
             />
           </Stack>
         </Stack>
